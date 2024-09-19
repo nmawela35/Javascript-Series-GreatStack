@@ -19,7 +19,8 @@
 
 //*Undefined - variable declared but value not assigned
 // let x;
-// console.log(x)
+// console.log(x) //undefined
+// console.log(typeof x) //undefined
 
 //* Null -empty/ unknown value;
 let x =null;
