@@ -121,18 +121,46 @@
 // console.log(a < 0 || b < 0) //false
 
 //* ! Logical NOT - convert operator to boolean and returns flipped value
-let YES = true;
-let NO =false;
-let x = 5;
-let emptyString =""
-let nothing =null
-let notAssigned = undefined;
+// let YES = true;
+// let NO =false;
+// let x = 5;
+// let emptyString =""
+// let nothing =null
+// let notAssigned = undefined;
 
-console.log(!YES); //false
-console.log(!NO)    //true
-console.log(!x) //false
-console.log(!emptyString) //true
-console.log(!nothing) //true
-console.log(!notAssigned) //true
+// console.log(!YES); //false
+// console.log(!NO)    //true
+// console.log(!x) //false
+// console.log(!emptyString) //true
+// console.log(!nothing) //true
+// console.log(!notAssigned) //true
 
 //!String Operators
+
+//* conctenation
+// a = "Hello, "
+// b= "Chris ";
+// console.log(a+b)
+
+// a += b; //a = a+,b
+// console.log(a)
+
+//! Operator precedence
+// let result = 2 + 3*5;
+// console.log(result) //17
+
+//! Operator associativity
+
+//* left to right associativity
+
+// let result = 10 -5 -1 
+// 10-5 =5
+//5-1 =4
+// console.log(result) //4
+
+//* right to left associativity
+
+let result = 2 ** 3 ** 2;
+//3**2 =9
+//2**9 =512
+console.log(result) //512
