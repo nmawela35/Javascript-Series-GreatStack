@@ -9,7 +9,6 @@ const person ={
         console.log(`Hi Ndivhudza  ${this.lastName} ${this.name} ${this}`)
     }
 }
-
 // person.getFullname()
 
 //* this outside of an object
