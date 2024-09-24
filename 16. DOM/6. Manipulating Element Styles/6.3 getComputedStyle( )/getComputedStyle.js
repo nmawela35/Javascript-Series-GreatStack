@@ -1,7 +1,11 @@
-//* cssText, will override current CSS styles, otherwise concatenate += to add to current styles
+//* getComputedStyle(), window object, read all CSS properties of an element
+
+//! syntax: window.getComputedStyle(element, pseudoElement)
 
 let inputBox = document.getElementById('csstext')
 
-inputBox.style.cssText += "width:200px; font-size:32px; height:30px"
+let styles = window.getComputedStyle(inputBox)
 
-console.log(inputBox)
+console.log(styles.fontFamily)
+console.log(styles.fontSize)
+console.log(styles.width)
