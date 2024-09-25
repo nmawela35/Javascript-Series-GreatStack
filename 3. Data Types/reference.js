@@ -1,4 +1,4 @@
-//! Objects
+//*  Objects
 let person ={
     firstName:"Chris",
     lastName:"Mawela",
@@ -8,7 +8,7 @@ let person ={
 // console.log(person)
 // console.log(typeof person)
 
-//!Arrays - object data types
+//* Arrays - object data types
 
 // const array1 = [person,{
 //     firstName:"Spoty",
@@ -19,14 +19,16 @@ let person ={
 // console.log(array1)
 // console.log(array1[1].firstName)
 
-//!Functions
+//* Functions
 // const msg =() =>{
 //     console.log("function is of type function, but its an object")
 // }
 // console.log(typeof msg) //type is function
 
-//!Javascript is dynamically typed language
+//* Javascript is dynamically typed language
+
 let x;
+
 x= "Chris" //string
 x= 30;      //number
 console.log(x)
